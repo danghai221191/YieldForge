@@ -11,7 +11,7 @@ body{
   overflow-x:hidden;
 }
 
-.background{
+.bg{
   position:fixed;
   width:100%;
   height:100%;
@@ -23,14 +23,15 @@ body{
 
 .header{
   position:fixed;
-  width:100%;
   top:0;
+  width:100%;
   display:flex;
   justify-content:space-between;
   align-items:center;
   padding:24px 60px;
-  backdrop-filter:blur(18px);
+  backdrop-filter:blur(20px);
   background:rgba(0,0,0,0.25);
+  z-index:1000;
 }
 
 .logo{
@@ -41,19 +42,20 @@ body{
 
 nav a{
   margin:0 18px;
-  color:white;
   text-decoration:none;
+  color:white;
 }
 
 #connectWallet{
-  padding:14px 26px;
+  padding:14px 24px;
   border:none;
   border-radius:14px;
-  background:linear-gradient(
-    135deg,
-    #22c55e,
-    #eab308
-  );
+  background:
+    linear-gradient(
+      135deg,
+      #22c55e,
+      #eab308
+    );
   color:white;
   cursor:pointer;
 }
@@ -61,8 +63,8 @@ nav a{
 .hero{
   min-height:100vh;
   display:flex;
-  align-items:center;
   justify-content:space-between;
+  align-items:center;
   padding:140px 80px;
   gap:80px;
   flex-wrap:wrap;
@@ -82,7 +84,7 @@ nav a{
 }
 
 .hero h1{
-  font-size:78px;
+  font-size:82px;
   line-height:1.1;
   margin-bottom:24px;
 }
@@ -107,11 +109,12 @@ nav a{
 }
 
 .primary-btn{
-  background:linear-gradient(
-    135deg,
-    #22c55e,
-    #eab308
-  );
+  background:
+    linear-gradient(
+      135deg,
+      #22c55e,
+      #eab308
+    );
   color:white;
 }
 
@@ -131,7 +134,7 @@ nav a{
 .stat-card{
   background:rgba(255,255,255,0.05);
   padding:30px;
-  border-radius:22px;
+  border-radius:24px;
   backdrop-filter:blur(18px);
   min-width:220px;
 }
@@ -151,7 +154,7 @@ nav a{
   backdrop-filter:blur(18px);
 }
 
-.pool-card{
+.pool{
   display:flex;
   justify-content:space-between;
   align-items:center;
@@ -166,11 +169,12 @@ nav a{
   padding:18px;
   border:none;
   border-radius:16px;
-  background:linear-gradient(
-    135deg,
-    #22c55e,
-    #eab308
-  );
+  background:
+    linear-gradient(
+      135deg,
+      #22c55e,
+      #eab308
+    );
   color:white;
   cursor:pointer;
 }
@@ -181,13 +185,13 @@ nav a{
 
 .section h2{
   text-align:center;
+  font-size:54px;
   margin-bottom:70px;
-  font-size:52px;
 }
 
 .grid,
-.roadmap,
-.tokenomics{
+.steps,
+.roadmap{
   display:grid;
   grid-template-columns:
     repeat(auto-fit,minmax(260px,1fr));
@@ -195,16 +199,54 @@ nav a{
 }
 
 .card,
+.step-card,
 .roadmap-card,
-.token-card{
+.content-box{
   background:rgba(255,255,255,0.05);
   padding:40px;
   border-radius:24px;
   backdrop-filter:blur(18px);
 }
 
+.step-card span{
+  font-size:42px;
+  color:#22c55e;
+  font-weight:bold;
+}
+
+.content-box ul{
+  margin-top:20px;
+  padding-left:20px;
+}
+
+.content-box li{
+  margin-bottom:12px;
+}
+
 .footer{
   padding:50px;
   text-align:center;
   opacity:0.7;
+}
+
+@media(max-width:768px){
+
+  .header{
+    padding:20px;
+    flex-direction:column;
+    gap:20px;
+  }
+
+  .hero{
+    padding:160px 24px 80px;
+  }
+
+  .hero h1{
+    font-size:52px;
+  }
+
+  .section{
+    padding:80px 24px;
+  }
+
 }
