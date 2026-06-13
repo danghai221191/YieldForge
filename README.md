@@ -204,25 +204,25 @@ Recommended security layers:
 
 # Roadmap
 
-## Q2 2026
+## Q1 2026
 
 - Farming contracts
 - Website launch
 - Testnet deployment
 
-## Q3 2026
+## Q2 2026
 
 - Mainnet launch
 - Auto-compounding vaults
 - DAO governance
 
-## Q4 2026
+## Q3 2026
 
 - Cross-chain farming
 - Yield analytics
 - Mobile application
 
-## Beyond 2027
+## Q4 2026
 
 - AI yield optimizer
 - Institutional vaults
