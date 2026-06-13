@@ -1,61 +1,160 @@
 # YieldForge
 
-YieldForge is a next-generation yield farming
-and liquidity mining platform designed to maximize
-capital efficiency and sustainable DeFi rewards.
+YieldForge is a next-generation Yield Farming
+and Liquidity Mining protocol designed to maximize
+capital efficiency, sustainable APY generation,
+and decentralized yield optimization.
 
-The protocol combines:
+The platform combines:
 
 - High APY farming
 - Auto-compounding vaults
-- Real yield distribution
-- Multi-chain liquidity
+- Real Yield distribution
+- Cross-chain liquidity
 - DAO governance
+- AI-powered yield optimization
 
 ---
 
 # Vision
 
-YieldForge aims to become a scalable
-yield infrastructure layer for decentralized finance.
+YieldForge aims to become a leading
+yield infrastructure layer for the future
+of decentralized finance.
 
-The protocol focuses on:
+The protocol is built to deliver:
 
-- Sustainable farming rewards
-- Auto-compounding strategies
-- Real yield generation
-- Cross-chain farming
-- Community governance
-
----
-
-# Core Features
-
-## Yield Farming
-
-Users can stake LP tokens
-to earn farming rewards.
+- Sustainable yield generation
+- Efficient liquidity utilization
+- Scalable farming infrastructure
+- Cross-chain DeFi accessibility
+- Community-driven governance
 
 ---
 
-## Auto-compounding Vaults
+# Why YieldForge?
 
-Rewards are automatically reinvested
-to maximize APY performance.
+Most traditional yield farming platforms
+suffer from several critical problems:
+
+- Unsustainable token emissions
+- Short-term liquidity incentives
+- Weak treasury management
+- Poor user experience
+- High gas costs
+- Fragmented liquidity
+
+YieldForge solves these issues by introducing:
+
+## Sustainable Yield Model
+
+YieldForge focuses on:
+
+- Real protocol revenue
+- Controlled emissions
+- Treasury-backed incentives
+- Long-term ecosystem growth
 
 ---
 
-## Liquidity Mining
+## Auto-compounding Infrastructure
 
-Liquidity providers earn incentives
-for supporting trading pools.
+Users can automatically reinvest rewards
+without manually harvesting and restaking.
+
+Benefits:
+
+- Higher effective APY
+- Reduced gas costs
+- Optimized capital efficiency
 
 ---
 
 ## Real Yield Distribution
 
-Protocol revenue is distributed
-to ecosystem participants.
+Instead of relying purely on inflation,
+YieldForge distributes protocol-generated revenue
+to active ecosystem participants.
+
+---
+
+## Multi-chain Yield Ecosystem
+
+YieldForge expands farming opportunities across:
+
+- Ethereum
+- Arbitrum
+- Base
+- Optimism
+- OPN Network
+
+---
+
+## DAO Governance
+
+The community controls:
+
+- Farming emissions
+- Treasury allocation
+- New pool approvals
+- Protocol upgrades
+
+---
+
+# How YieldForge Works?
+
+YieldForge operates through a combination
+of farming pools, vault strategies,
+and reward distribution contracts.
+
+---
+
+# Step 1 — Liquidity Providing
+
+Users provide liquidity into supported pools.
+
+Example:
+
+- YFG / ETH
+- YFG / USDC
+- ETH / USDC
+
+Liquidity providers receive LP tokens.
+
+---
+
+# Step 2 — Staking LP Tokens
+
+Users stake LP tokens into YieldForge farms.
+
+The protocol distributes:
+
+- Farming rewards
+- Yield incentives
+- Treasury rewards
+
+---
+
+# Step 3 — Auto-compounding
+
+Vault contracts automatically:
+
+- Harvest rewards
+- Reinvest assets
+- Increase user position size
+
+This maximizes compounded APY performance.
+
+---
+
+# Step 4 — Real Yield Distribution
+
+Protocol fees are distributed into:
+
+- Treasury
+- Stakers
+- Ecosystem rewards
+- Buyback mechanisms
 
 ---
 
@@ -67,9 +166,48 @@ Vault Contracts
 ↓
 Farming Pools
 ↓
-Reward Distribution
+Reward Engine
 ↓
 Treasury System
+↓
+DAO Governance
+
+---
+
+# Core Features
+
+## Yield Farming
+
+Stake LP tokens
+and earn sustainable APY rewards.
+
+---
+
+## Auto-compounding Vaults
+
+Rewards are automatically reinvested
+to optimize long-term yield generation.
+
+---
+
+## Liquidity Mining
+
+Users receive additional incentives
+for supporting liquidity pools.
+
+---
+
+## Real Yield
+
+Protocol-generated fees are distributed
+to ecosystem participants.
+
+---
+
+## Cross-chain Farming
+
+YieldForge expands farming opportunities
+across multiple blockchain ecosystems.
 
 ---
 
@@ -87,13 +225,16 @@ Decimals:
 Total Supply:
 1,000,000,000 YFG
 
-Utilities:
+---
+
+# YFG Utilities
 
 - Farming rewards
-- Governance
+- Governance voting
 - Revenue sharing
-- Staking incentives
-- DAO voting
+- DAO participation
+- Treasury incentives
+- Liquidity rewards
 
 ---
 
@@ -112,38 +253,43 @@ Utilities:
 
 # Vesting Schedule
 
-## Team
+## Team Allocation
 
 - 12-month cliff
 - 24-month vesting
 
-## Investors
+---
+
+## Investor Allocation
 
 - 6-month cliff
 - 18-month vesting
 
+---
+
 ## Farming Emissions
 
-- Distributed over 5 years
+Distributed gradually
+over 5 years.
 
 ---
 
 # Revenue Model
 
-YieldForge generates revenue from:
+YieldForge generates protocol revenue from:
 
-- Farming fees
-- Performance fees
+- Farming performance fees
 - Vault management fees
-- Protocol treasury yield
+- Treasury yield strategies
+- Cross-chain routing fees
 
 ---
 
 # Supported Networks
 
 - Ethereum
-- Arbitrum
 - Base
+- Arbitrum
 - Optimism
 - OPN Network
 
@@ -157,11 +303,15 @@ YieldForge generates revenue from:
 - CSS
 - JavaScript
 
+---
+
 ## Web3
 
 - ethers.js
-- MetaMask
 - WalletConnect
+- MetaMask
+
+---
 
 ## Smart Contracts
 
@@ -171,26 +321,38 @@ YieldForge generates revenue from:
 
 ---
 
+## Backend
+
+- Node.js
+- PostgreSQL
+- Redis
+
+---
+
 # Website Features
 
 - Wallet Connect
 - Farming Dashboard
 - APY Analytics
-- Vault Explorer
+- Auto-compounding Vaults
 - Yield Statistics
+- Governance Portal
 - Responsive UI
 
 ---
 
 # Security
 
-Recommended security layers:
+YieldForge prioritizes protocol security.
+
+Recommended security measures:
 
 - Smart contract audit
 - Reentrancy protection
-- Multi-signature treasury
 - Timelock governance
+- Multi-signature treasury
 - Fuzz testing
+- Access control validation
 
 ---
 
@@ -204,39 +366,86 @@ Recommended security layers:
 
 # Roadmap
 
-## Q1 2026
+# Q2 2026
 
-- Farming contracts
-- Website launch
-- Testnet deployment
+- YieldForge Website Launch
+- Smart Contract Development
+- Testnet Farming Pools
+- Initial Security Testing
 
-## Q2 2026
+---
 
-- Mainnet launch
-- Auto-compounding vaults
-- DAO governance
+# Q3 2026
 
-## Q3 2026
+- Mainnet Launch
+- Yield Farming Activation
+- LP Staking Pools
+- Auto-compounding Vaults
 
-- Cross-chain farming
-- Yield analytics
-- Mobile application
+---
 
-## Q4 2026
+# Q4 2026
 
-- AI yield optimizer
-- Institutional vaults
-- Advanced farming tools
+- DAO Governance
+- Treasury System
+- Real Yield Distribution
+- Yield Analytics Dashboard
+
+---
+
+# Q1 2027
+
+- Cross-chain Farming
+- OPN Network Expansion
+- Institutional Vaults
+- Advanced APY Strategies
+
+---
+
+# Q2 2027
+
+- AI Yield Optimizer
+- Dynamic Farming Rewards
+- Automated Treasury Management
+- Mobile Application
+
+---
+
+# Q3 2027
+
+- Yield Aggregator
+- Multi-chain Liquidity Router
+- DAO Treasury Expansion
+- Real-time Analytics
+
+---
+
+# Q4 2027
+
+- Layer 2 Scaling
+- Institutional DeFi Products
+- Advanced Revenue Sharing
+- Ecosystem Partnerships
+
+---
+
+# Beyond 2027
+
+- AI-driven Yield Infrastructure
+- Fully Decentralized Governance
+- Global Cross-chain Liquidity Network
+- Institutional DeFi Integration
+- Autonomous Yield Strategies
 
 ---
 
 # Future Upgrades
 
 - AI APY optimization
-- Dynamic reward emissions
-- Real-time analytics
-- Layer 2 expansion
-- Yield aggregation
+- Dynamic emissions model
+- Real-time vault strategies
+- Layer 2 integrations
+- Institutional liquidity infrastructure
 
 ---
 
